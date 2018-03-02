@@ -48,7 +48,7 @@ class AnagramTest {
     @Test
     void should_return_correct_value_when_input_abcd() {
         List<String> actual = Anagram.of("abcd");
-        
+
         assertThat(actual, hasItems("abcd", "abdc", "adbc"));
     }
 }
